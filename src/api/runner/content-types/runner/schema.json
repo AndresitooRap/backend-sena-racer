@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "runners",
+  "info": {
+    "singularName": "runner",
+    "pluralName": "runners",
+    "displayName": "Runner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "identification": {
+      "type": "biginteger",
+      "unique": true
+    },
+    "password": {
+      "type": "email",
+      "required": false,
+      "unique": true
+    },
+    "score1": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "score2": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "score3": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "score4": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "time1": {
+      "type": "float",
+      "default": 0
+    },
+    "time2": {
+      "type": "float",
+      "default": 0
+    },
+    "time3": {
+      "type": "float",
+      "default": 0
+    },
+    "time4": {
+      "type": "float",
+      "default": 0
+    },
+    "score5": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "time5": {
+      "type": "float",
+      "default": 0
+    },
+    "totalScore": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "totalTime": {
+      "type": "float",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "singularName": "history",
+    "pluralName": "histories",
+    "displayName": "history"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "identification": {
+      "type": "biginteger"
+    },
+    "admin": {
+      "type": "string"
+    },
+    "accion": {
+      "type": "string"
+    },
+    "hora": {
+      "type": "datetime"
+    }
+  }
+}
